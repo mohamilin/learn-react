@@ -66,3 +66,24 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+### my documentation
+1. Buat component dalam file src : component dan container 
+    - component untuk file stateless component / function
+    - container untuk file stateful component / class 
+2. dalam setiap membuat komponent kita harus memerhatikan  import dan export nya karena 
+    berkaitan dengan berhasil / tidaknya untuk tampil di web browser
+3. untuk penamaan usahkan yang familiar aga kita dapat memahaminya.
+4. dalam tahap awal kita membuat file HelloComponent.jsx dan StateFullComponent
+    serta styling cssnya. [perhatikan folder src > component & src > container]
+5. Untuk pemanggilan component dikirim ke file index.js dengan mencantumkan import dari componet yang telah dibuat dan dipanggil lag dalam ReactDOM.render(<namaComponent/>)
+
+6. Buat component baru dengan stateless yang didalamnya terdapat props -> untk lebih dinamis lagi
+    - props : sebuah component bs menerima props dmn props ini brfungs membuat component lbh dinamis.
+    - Buat file Video.jsc dan Video.css dalam src > component > VideoComponent.
+    - Buat file Home.jsx dan Home.css dalam src > container
+    - file video.jsx menggunakan stateless / function component
+    - Sedangkan Home.jsx menggunakan stateFullComponent / 
+    - pada Video.jsx terdapat props dan nilai default jika tidak terdapat nilainya 
+    

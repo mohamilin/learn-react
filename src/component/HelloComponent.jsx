@@ -5,7 +5,7 @@ import React from 'react';
 import './HelloComponent.css';
 
 const HelloComponent = () => {
-    return <p className="text-p">Heloo Amilin ini adalah Hello Component </p>
+    return <p className="txt-p">Heloo Amilin ini adalah Hello Component </p>
 }
 
 // dan export agar dapat digunakan dimana saja

@@ -4,13 +4,19 @@ import './index.css';
 // import App from './App';
 import * as serviceWorker from './serviceWorker';
 // import HelloComponent from './component/HelloComponent';
-import StateFullComponent from './container/StateFullComponent';
+// import StateFullComponent from './container/StateFullComponent';
+// import Video from './component/VideoComponent/Video.jsx';
+import Home from './container/Home';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <HelloComponent /> */}
+    {/* dalaam <React.StrictMode> ini lah pemanggilan component agar dapt tampil di web browser*/}
+    {/* <HelloComponent />
     <StateFullComponent />
+    <Video /> */}
     {/* <App /> */}
+    <Home/>
   </React.StrictMode>,
   document.getElementById('root')
 );
